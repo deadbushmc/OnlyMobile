@@ -22,21 +22,21 @@ class onlymobile extends PluginBase implements Listener{
         $os = $event->getPacket();
         if ($os instanceof LoginPacket){
             if ($os->clientData["DeviceOS"] == 7){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on Win10", false);
+                $player->kick("§l§6You can only join this server with Mobile Devices\n§r§eYou are on Win10", false);
             }elseif($os->clientData["DeviceOS"] == 3){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on MacOs", false);
+                $player->kick("§l§6You can only join this server with Mobile Devices\n§r§eYou are on MacOs", false);
             }elseif($os->clientData["DeviceOS"] == 5){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on GearVR", false);
+                $player->kick("§l§6You can only join this server with Mobil Devicese Devices\n§r§eYou are on GearVR", false);
             }elseif($os->clientData["DeviceOS"] == 6){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on HoloLens", false);
+                $player->kick("§l§6You can only join this server with Mobil Devicese Devices\n§r§eYou are on HoloLens", false);
             }elseif($os->clientData["DeviceOS"] == 8){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on Win32", false);
+                $player->kick("§l§6You can only join this server with Mobile Devices\n§r§eYou are on Win32", false);
             }elseif($os->clientData["DeviceOS"] == 10){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on TVOS", false);
+                $player->kick("§l§6You can only join this server with Mobile Devices\n§r§eYou are on TVOS", false);
             }elseif($os->clientData["DeviceOS"] == 11){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on Console", false);
+                $player->kick("§l§6You can only join this server with Mobile Devices\n§r§eYou are on Console", false);
             }elseif($os->clientData["DeviceOS"] == 12){
-                $player->kick("§l§6You can only join this server with Mobile\n§r§eYou are on NXOS", false);
+                $player->kick("§l§6You can only join this server with Mobile Devices\n§r§eYou are on NXOS", false);
             }
         }
     }
